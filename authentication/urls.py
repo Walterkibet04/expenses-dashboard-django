@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
     path('register/', RegisterView.as_view(), name="register"),
-     path('login/', LoginAPIView.as_view(), name="login"),
+     path('login/', LoginView.as_view(), name="login"),
 ]
 # router = DefaultRouter()
 # router.register('register', RegisterViewset, basename='register')

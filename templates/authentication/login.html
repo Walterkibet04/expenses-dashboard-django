@@ -13,7 +13,7 @@
                     {% csrf_token %}
                     {% include 'partials/messages.html' %}
                     <div class="form-group mb-3 ">
-                        <input type="text" name="username" placeholder="username" id="usernameField" class="form-control" value="{{fieldValues.username}}">
+                        <input type="text" name="email" placeholder="email" id="usernameField" class="form-control" value="{{fieldValues.email}}">
                     </div>
                     <div class="form-group mb-3">
                         <input type="password" name="password" placeholder="password" id="passwordField" class="form-control">
